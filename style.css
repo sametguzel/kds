@@ -1,0 +1,60 @@
+body{
+   font-family:'Graphik', Helvetica;
+   height:1024px;
+   display:flex;
+   flex-direction:column;
+   align-items:center;
+   justify-content:center;
+   background:#d2d6de;
+   background-image: url('arkaplan.jpg');
+
+}
+
+.adminlabl{
+	font-size:30px;
+	margin-bottom:20px;
+	font-family:Cursive;
+	color:white;
+
+	width:200px;
+}
+
+.giris{
+	   display:flex;
+   flex-direction:column;
+   align-items:center;
+   justify-content:center;
+   background:#fff;
+   width:360px;
+   display:flex;
+   flex-direction:column;
+   opacity:0.8;
+   border-color:#fff;
+   	border-style:solid;
+   padding-top:20px;
+   padding-bottom:50px;
+   padding-left:10px;
+   padding-right:10px;
+}
+
+#eposta{
+	margin-top:30px;
+	width:80%;
+	height:25px;
+}
+
+#sifre{
+	margin-top:30px;
+	width:80%;
+	height:25px;
+}
+#gir{
+	margin-top:30px;
+	width:30%;
+	height:25px;
+	background:#3c8dbc;
+	color:white;
+	border:0;
+	margin-bottom:15px;
+	border-style:ridge;
+}
